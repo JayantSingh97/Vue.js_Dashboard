@@ -43,7 +43,7 @@
 
 ***
 # project Configuration information.
-1. If you are facing any compilation issue then simply run the following command in your command prompt under your AngularApplication       directory.
+1. If you are facing any compilation issue then simply run the following command in your command prompt under your Vue.js Application       directory.
 
 
 2. ```npm i```
@@ -60,13 +60,13 @@ project.
 npm i
 ng serve
 check for compilation status.
-then goto  http://localhost:4200
+then goto  http://localhost:8080  
 ```
 a. Vue local development port  http://localhost:8080  
 B Vue Ui  development port  http://localhost:8000
  
  
-# Project Overview 
+# Vuetify Material
 
 1. Vuetify Material Components.
 
@@ -110,7 +110,7 @@ B Vue Ui  development port  http://localhost:8000
  
   ---
   
-  1.This project covers most of the components of angular/angular Material. which can be easily configuration and modify as per requirements.
+  1.This project covers most of the components of Vue.js/Vuetify Material. which can be easily configuration and modify as per requirements.
   
   ___
 
