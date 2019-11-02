@@ -58,12 +58,12 @@ project.
 
 ```
 npm i
-ng serve
+npm run serve/build for prod to create Dist Folder for deployment.
 check for compilation status.
 then goto  http://localhost:8080  
 ```
 a. Vue local development port  http://localhost:8080  
-B Vue Ui  development port  http://localhost:8000
+B Vue UI  development port  http://localhost:8000
  
  
 # Vuetify Material
@@ -106,7 +106,7 @@ B Vue Ui  development port  http://localhost:8000
 |02-11-2019 | Vue SCSS    |    Yes           |
 |02-11-2019 | Vue module configuration  Example  |    Yes           |
 |02-11-2019 | Vue Inline chart    |    Yes           | 
-102-11-2019 | Vue Dashboard template example    |    Yes           |
+|02-11-2019 | Vue Dashboard template example    |    Yes           |
  
   ---
   
