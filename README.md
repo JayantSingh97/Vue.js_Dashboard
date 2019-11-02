@@ -62,108 +62,52 @@ ng serve
 check for compilation status.
 then goto  http://localhost:4200
 ```
-a. Angular local development port  http://localhost:4200
+a. Vue local development port  http://localhost:8080  
+B Vue Ui  development port  http://localhost:8000
  
  
 # Project Overview 
 
-1. Angular Material Components.
+1. Vuetify Material Components.
 
  
- |Date Created| Components Name  | Is Available in Project |  Angular Components Folder  Path  |
-| ----------- | ---------------- | ----------------------- |   ---------------------- |
-|11-10-2019 | Material Dashboard    |    Yes                |    src/app/material-Dashboard                   |
-|11-10-2019 | Material Navigation     |  Yes             |       src/app/Material-nav         |
-|11-10-2019 | Material Button    |    Yes                |        src/app/angularbutton                |
-|11-10-2019 | Material Form    |    Yes                  |         src/app/angularform              |
-|11-10-2019 | Material Image    |    Yes                   |         src/app/Maerial-img              |
-|11-10-2019 | Material Dialog    |    Yes                |    src/app/angular-dialog                   |
-|11-10-2019 | Material Table    |    Yes                |    src/app/material-table                   |
-|11-10-2019 | Material Datepicker    |    Yes                |    src/app/materialdatepicker                   |
-|11-10-2019 | Material Stepper    |    Yes                |    src/app/material-stepper                   |
-|11-10-2019 | Material Grid    |    Yes                |    src/app/material-dashboard                   |
+ |Date Created| Components Name  | Is Available in Project |  
+| ----------- | ---------------- | ----------------------- |  
+|02-11-2019 | Material Dashboard    |    Yes                |     
+|02-11-2019 | Material Navigation     |  Yes             |    
+|02-11-2019 | Material Button    |    Yes                |    
+|02-11-2019 | Material Form    |    Yes                  |    
+|02-11-2019 | Material Image    |    Yes                   |  
+|02-11-2019 | Material Dialog    |    Yes                |    
+|02-11-2019 | Material Table    |    Yes                |     
+|02-11-2019 | Material Dark Mode    |    Yes                      
+|02-11-2019 | Material Grid    |    Yes                |    
 
-
-___ 
-
-# Angular 7 
-
-1. Angular Components.
 
  
- |Date Created| Angular 7  | Is Available in Project  |
+# Vue.js 2.6.10 
+
+1. Vue.js Components.
+
+ 
+ |Date Created| Vue.js  | Is Available in Project  |
 | ----------- | ---------------- | ----------------- |
-|11-10-2019 | Angular Compoenets Example    |    Yes         |
-|11-10-2019 | Angular styling     |  Yes         |
-|11-10-2019 | Angular Animation    |    Yes            |
-|11-10-2019 | Angular Routing    |    Yes              |
-|11-10-2019 | Angular Toster    |    Yes               |
-|11-10-2019 | Angular Form Validation    |    Yes            |
-|11-10-2019 | Angular Custome styling    |    Yes             |
-|11-10-2019 | Angular Dark Mode    |    Yes        |
-|11-10-2019 | Angular CLI    |    Yes           |
-|11-10-2019 | Angular Serivce Example    |    Yes           |
-|11-10-2019 | Angular Routing Animation    |    Yes           |
-|11-10-2019 | Angular directives    |    Yes           |
-|11-10-2019 | Angular SCSS    |    Yes           |
-|11-10-2019 | Angular module configuration  Example  |    Yes           |
-|11-10-2019 | Angular Inline chart    |    Yes           |
-11-10-2019 | Angular   Drought hart   |    Yes           |
-11-10-2019 | Angular Radar chart    |    Yes           |
-11-10-2019 | Angular pie chart    |    Yes           |
-11-10-2019 | Angular Dashboard template example    |    Yes           |
-
+|02-11-2019 | Vue Compoenets Example    |    Yes         |
+|02-11-2019 | Vue styling     |  Yes         |
+|02-11-2019 | Vue Animation    |    Yes            |
+|02-11-2019 | Vue Routing    |    Yes              |
+|02-11-2019 | Vue Toster    |    Yes               |
+|02-11-2019 | Vue Form Validation    |    Yes            |
+|02-11-2019 | Vue Custome styling    |    Yes             |
+|02-11-2019 | Vue Dark Mode    |    Yes        |
+|02-11-2019 | Vue CLI    |    Yes           |
+|02-11-2019 | Vue Serivce Example    |    Yes           |
+|02-11-2019 | Vue Routing Animation    |    Yes           | 
+|02-11-2019 | Vue SCSS    |    Yes           |
+|02-11-2019 | Vue module configuration  Example  |    Yes           |
+|02-11-2019 | Vue Inline chart    |    Yes           | 
+102-11-2019 | Vue Dashboard template example    |    Yes           |
  
- 
-
-___
-
-# Project dependencies
-``` "dependencies": {
-    "@angular/animations": "~7.1.0",
-    "@angular/cdk": "^7.1.0",
-    "@angular/common": "~7.1.0",
-    "@angular/compiler": "~7.1.0",
-    "@angular/core": "~7.1.0",
-    "@angular/forms": "~7.1.0",
-    "@angular/material": "^7.1.0",
-    "@angular/platform-browser": "~7.1.0",
-    "@angu lar/platform-browser-dynamic": "~7.1.0",
-    "@angular/router": "~7.1.0",
-    "chart.js": "^2.8.0",
-    "core-js": "^2.5.4",
-    "hammerjs": "^2.0.8",
-    "ng2-charts": "^2.2.0",
-    "ngx-toastr": "^10.1.0",
-    "rxjs": "~6.3.3",
-    "tslib": "^1.9.0",
-    "zone.js": "~0.8.26"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.11.0",
-    "@angular/cli": "~7.1.3",
-    "@angular/compiler-cli": "~7.1.0",
-    "@angular/language-service": "~7.1.0",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~8.9.4",
-    "codelyzer": "~4.5.0",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~3.1.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~1.1.2",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "ng2-charts-schematics": "^0.1.7",
-    "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
-    "tslint": "~5.11.0",
-    "typescript": "~3.1.6"
-  }
-  ```
-  
-  
   ---
   
   1.This project covers most of the components of angular/angular Material. which can be easily configuration and modify as per requirements.
