@@ -55,7 +55,7 @@
                               solo-inverted
                               hide-details
                               prepend-inner-icon="search"
-                              label="Search"
+                              label="Search Product(s)"
                               class="hidden-sm-and-down"></v-text-field>
                 <v-spacer></v-spacer>
 
@@ -161,7 +161,7 @@
                                 <v-list-item three-line>
                                     <v-list-item-content>
                                         <div class="overline mb-4">Mack Book</div>
-                                        <v-list-item-title class="headline mb-1">$12000</v-list-item-title>
+                                        <v-list-item-title class="headline mb-1">$18000</v-list-item-title>
                                         <v-list-item-subtitle>
                                             <v-sparkline :fill="fill"
                                                          :gradient="gradient"
@@ -348,7 +348,7 @@
                                     outlined>
                                 <v-list-item three-line>
                                     <v-list-item-content>
-                                        <div class="overline mb-4">US Maerket Report</div>
+                                        <div class="overline mb-4">US market Report</div>
                                         <v-list-item-title class="headline mb-1">$23343432</v-list-item-title>
                                         <v-list-item-subtitle>
                                             <Country />

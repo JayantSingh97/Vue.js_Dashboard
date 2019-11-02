@@ -37,6 +37,13 @@
                             <v-card-text>
                                 <v-container>
                                     <v-row>
+                                        <v-col cols="12" sm="12" md="12" style="text-align:center"> 
+                                        <v-list-item-avatar tile
+                                                      size="120"
+                                                    color="grey">
+                                              <img style="border-radius: 90px;" :src="editedItem.ImgUrl" alt="">
+                                        </v-list-item-avatar> 
+                                        </v-col> 
                                         <v-col cols="12" sm="6" md="4">
                                             <v-text-field v-model="editedItem.ProductName" label="Product Name"></v-text-field>
                                         </v-col>
@@ -45,14 +52,11 @@
                                         </v-col>
                                         <v-col cols="12" sm="6" md="4">
                                             <v-text-field v-model="editedItem.InStock" label="Color"></v-text-field>
-                                        </v-col>
-                                        <v-col cols="12" sm="6" md="4">
-                                            <v-text-field v-model="editedItem.Price" label="Disscount"></v-text-field>
-                                        </v-col>
+                                        </v-col> 
                                         <v-col cols="12" sm="6" md="4">
                                             <v-text-field v-model="editedItem.Disscount" label="Disscount"></v-text-field>
                                         </v-col>
-                                        <v-col cols="12" sm="6" md="4">
+                                        <v-col cols="12" sm="6" md="8">
                                             <v-text-field v-model="editedItem.ImgUrl" label="ImgUrl"></v-text-field>
                                         </v-col>
                                     </v-row>
@@ -115,11 +119,10 @@
             dialog: false,
             search: '',
             headers: [
-                { text: 'ImgUrl', value: 'ImgUrl' },
+                { text: 'P-Image', value: 'ImgUrl' },
                 {
                     text: 'ProductName',
-                    align: 'left',
-                    sortable: false,
+                    align: 'left', 
                     value: 'ProductName',
                 },
                 { text: 'Price', value: 'Price' },
